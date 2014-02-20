@@ -2,7 +2,7 @@ Pinteresting::Application.routes.draw do
   root "pages#home" #creates root_path
   get "about" => "pages#about" #creates about_path
   
-  # The priority is based upon order of creation: first created -> highest priority.
+  # The 0priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
